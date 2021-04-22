@@ -14,5 +14,15 @@ public class TestBST {
         System.out.println("Inorder (sorted): ");
         tree.inorder();
         System.out.println("The number of nodes is: " + tree.getSize());
+
+        System.out.println();
+        System.out.print("Postorder: ");
+        System.out.println();
+        tree.postOrder();
+        System.out.println();
+
+        System.out.print("Preorder: ");
+        System.out.println();
+        tree.preOrder();
     }
 }

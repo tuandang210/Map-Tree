@@ -5,4 +5,11 @@ public abstract class AbstractTree<E> implements Tree<E> {
     /** Inorder traversal from the root*/
     public void inorder() {
     }
+
+    public void postOrder(){
+    }
+
+    public void preOrder(){
+    }
+
 }

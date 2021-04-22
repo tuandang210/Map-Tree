@@ -8,4 +8,6 @@ public class TreeNode<E> {
     public TreeNode(E e) {
         element = e;
     }
+
+
 }
